@@ -1,0 +1,12 @@
+<h2>{{titulo}}</h2>
+
+<table>
+    <tr>
+        <th>NOME</th>
+        <th>DESCRICAO</th>
+    </tr>
+    <tr *ngFor='let curso of (cursos)'>
+        <td>{{curso.name}}</td>
+        <td>{{curso.description}}</td>
+    </tr>
+</table>
